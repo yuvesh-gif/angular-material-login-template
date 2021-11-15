@@ -7,27 +7,21 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   min-height: 100vh;
-  background: #e2e2e2;
+  background: #e48dd1ab;
 }
 
-.app-header {
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+.img source{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
 }
 
 .login-wrapper {
   height: 100%;
 }
 
-.positronx {
-  text-decoration: none;
-  color: #ffffff;
-}
 
 .box {
   position: relative;
@@ -36,7 +30,7 @@ body {
   float: left;
   padding: 60px 50px 40px 50px;
   width: 100%;
-  background: #fff;
+  background: rgb(255, 255, 255);
   border-radius: 10px;
   transform: scale(1);
   -webkit-transform: scale(1);
